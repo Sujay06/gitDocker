@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ // to support URL-encoded bodies
 
 app.set('port', process.env.PORT || 6000);
 
-var cmd=require('node-cmd');
+var cmd=require(' node-cmd ');
 
 app.post('/gitPush', function (req, res) {
 console.log("Received the message inside gitPush->"+ JSON.stringify(req.body));
